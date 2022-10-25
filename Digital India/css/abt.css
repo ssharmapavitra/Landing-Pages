@@ -1,0 +1,81 @@
+#intro,#vava,#pa,#pm,#mt,#ms,#aam{
+    display: none;
+    background:white;
+    min-height: 400px;
+}
+#intro:target{
+    display:block;
+    padding:50px;
+}
+#vava:target,#pa:target,#pm:target,#mt:target,#ms:target,#aam:target{
+    display: block;
+    padding:50px;
+    
+}
+#img34{
+    float: right;
+    width:100%;
+}
+.containc{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 70px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.conten{
+    
+    margin:0 I !important;
+    margin-top: 0;
+    padding-top: 0;
+    background-image:url("../Img/bg.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:350px;
+    word-wrap: break-word;
+}
+.conten:active{
+    border:none;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+}
+#msimg{
+    width: 60%;
+}
+.card{
+    margin:10px;
+}
+.card-title{
+    /* height: 50px; */
+    height: min-content;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+@media (max-width:850px){
+    .flex{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:600px){
+    #itimg{
+        width:100%;
+    }
+}
+@media (max-width:700px){
+    #msimg{
+        width:70%;
+    }
+}
+@media (max-width:475px){
+    .content{
+        min-width:200px;
+    }
+}
