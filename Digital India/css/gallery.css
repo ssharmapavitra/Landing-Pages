@@ -1,0 +1,43 @@
+.head{
+    color:darkblue;
+    font-size: 50px;
+    text-align: center;
+}
+.flex{
+    /* display: flexbox; */
+    left:-100px;
+    /* padding: 2vh; */
+    text-align: center;
+    /* flex-direction: row; */
+}
+.thumbnail{
+    width: 28vw;
+    height: 20vw;
+    margin:10px;
+}
+.div1{
+    animation: fade 1s linear;
+}
+.div2{
+    animation: fade1 1s linear;
+}
+.thumbnail:hover{
+    transform: scale(1.07);
+}
+@keyframes fade{
+    0%{
+        transform:translateX(100px);
+    }
+    100%{
+        transform:skew(0deg);
+    }
+}
+@keyframes fade1{
+    0%{
+        transform:translateX(-100px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
