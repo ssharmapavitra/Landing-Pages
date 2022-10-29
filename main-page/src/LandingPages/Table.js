@@ -5,7 +5,7 @@ export default function Table() {
 		<div>
 			<table class="table table-striped">
 				<tr>
-					<th>S.No</th>
+					<th>S.No.</th>
 					<th>Name</th>
 					<th>Page</th>
 				</tr>
